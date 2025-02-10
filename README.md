@@ -21,6 +21,6 @@ This is a **static website** developed for a **government school** to enhance it
    ```bash
    git clone https://github.com/your-username/school-website.git
 
-📩 Contributions
+## 📩 Contributions
 Feel free to contribute by suggesting improvements, fixing bugs, or adding new features!
 
