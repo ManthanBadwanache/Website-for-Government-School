@@ -1,0 +1,186 @@
+/* Max to min */
+/* at 1440px width*/
+@media only screen and (max-width: 90em) {
+  .header__title {
+    padding: 4.8rem 9.8rem;
+  }
+}
+/* at 1288px width */
+@media only screen and (max-width: 80em) {
+  .heading--primary {
+    font-size: 4.8rem;
+  }
+}
+/* at 1200px width */
+@media only screen and (max-width: 80em) {
+  .heading--primary {
+    font-size: 3.8rem;
+  }
+  .cta--heading {
+    font-size: 3.8rem;
+  }
+}
+
+/* For mobile decives width 480px */
+@media only screen and (max-width: 30em) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .section {
+    padding: 8rem 2rem;
+  }
+  .section__title {
+    max-width: 40rem;
+    margin: 0 auto 2rem auto;
+  }
+  .section__description {
+    font-size: 1.4rem;
+  }
+  .section__header {
+    font-size: 2.4rem;
+    margin-bottom: 4.8rem;
+  }
+  .grid--container {
+    max-width: 40rem;
+  }
+  .nav {
+    padding: 2rem;
+    height: 4.4rem;
+  }
+  .nav__links {
+    gap: 12px;
+    padding-right: 0px;
+  }
+  .nav__logo {
+    height: 2.4rem;
+    padding: 0;
+  }
+
+  .nav__link:link,
+  .nav__link:visited {
+    font-size: 1.1rem;
+  }
+  .nav__link--btn:link,
+  .nav__link--btn:visited {
+    padding: 0.2rem 0.8rem;
+  }
+  .header__title {
+    grid-template-columns: 1fr;
+    padding: 7rem 3.8rem;
+    text-align: center;
+  }
+  .heading--text {
+    font-size: 1.4rem;
+  }
+  .modal {
+    padding: 3rem 4rem;
+    width: 40rem;
+  }
+  .modal__header {
+    font-size: 2rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .facilities {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .facilities__feature {
+    width: 100%;
+  }
+  .order-4 {
+    order: 4;
+  }
+  .order-3 {
+    order: 3;
+  }
+  .order-2 {
+    order: 2;
+  }
+  .order-1 {
+    order: 1;
+  }
+  .about_us {
+    grid-template-columns: 1fr;
+  }
+  .animated__numbers {
+    padding: 2rem 2rem;
+    gap: 0;
+  }
+  .number--heading {
+    font-size: 3rem;
+  }
+  .number--title {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .vision {
+    margin-top: 6rem;
+  }
+  .vision__tab-container {
+    gap: 1.6rem;
+  }
+  .vision__tab {
+    padding: 0.6rem 1.2rem;
+  }
+  .vision__content {
+    padding: 2rem 1.4rem;
+  }
+  .vision__content--active {
+    gap: 2rem;
+    grid-template-columns: 4rem 1fr;
+  }
+  .vision__header {
+    font-size: 1.6rem;
+  }
+  .vision__icon {
+    height: 4rem;
+    width: 4rem;
+  }
+  .vision__content p {
+    padding: 0 2rem;
+    grid-column: 1/3;
+  }
+  .testimonial__text {
+    font-size: 1.4rem;
+  }
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta--heading {
+    font-size: 3rem;
+  }
+  .cta-text-box {
+    padding: 4rem;
+  }
+  .ctf-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    height: 100%;
+  }
+  .footer {
+    padding: 5rem 1rem;
+  }
+  .footer__item {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  .footer__link {
+    font-size: 1.2rem;
+  }
+  .footer__copyright {
+    font-size: 0.8rem;
+  }
+  .footer__copyright .footer__link {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  html {
+    font-size: 50%;
+  }
+}

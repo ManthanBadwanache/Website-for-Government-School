@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width =device-width, initial-scale=1.0" />
+    <meta
+      name="Government Marathi Lower Primary School"
+      content="Government Marathi Lower Primary School"
+    />
+    <!-- Poppins font from google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- linking css files -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>School</title>
+    <!-- Lining email js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init('09mHaaOJ6Ldx-yURv');
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav sticky">
+        <img
+          src="images/logo.png"
+          alt="logo"
+          class="nav__logo"
+          id="logo"
+          developer="Raviteja"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="section--1">Facilities</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="section--2">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="section--3">Vision</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="section--4">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Donate Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <div class="header__title--text">
+          <h1 class="heading--primary">
+            Government Kannada<br />Medium High<br />School
+          </h1>
+          <p class="heading--text">
+            Building Foundations, Shaping Futures: Your Child's Educational
+            Journey Begins here at our school.
+          </p>
+          <button class="btn-hero" href="section--1">
+            Learn more &DownArrow;
+          </button>
+          <a
+            class="btn-hero btn-location"
+            href="https://maps.app.goo.gl/ETQ95gXD888JPaKG7"
+            target="_blank"
+          >
+            Location &DownArrow;
+          </a>
+        </div>
+        <img
+          src="images/landing-page.png"
+          class="header__img"
+          alt="Header image"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Facilities</h2>
+        <h3 class="section__header">
+          We offer various facilities to support our students
+        </h3>
+      </div>
+
+      <div class="facilities grid--container">
+        <div class="image__box order-2">
+          <img
+            src="images/events.jpg"
+            data-src="img/digital.jpg"
+            alt="students holding their drawing"
+            class="facilities__img lazy-img"
+          />
+        </div>
+        <div class="facilities__feature order-1">
+          <div class="facilities__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z"
+              />
+            </svg>
+          </div>
+          <h5 class="facilities__header">Campus Events</h5>
+          <p>
+            Participating in various school events helps students develop
+            social, leadership, and communication skills, preparing them for
+            future challenges and opportunities.
+          </p>
+        </div>
+
+        <div class="facilities__feature">
+          <div class="facilities__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+              />
+            </svg>
+          </div>
+          <h5 class="facilities__header">Medical checkup</h5>
+          <p>
+            Regular health check-ups are essential for students because they
+            help identify health issues early on, ensuring overall well-being
+            and maintaining an optimal environment for learning.
+          </p>
+        </div>
+        <div class="image__box">
+          <img
+            src="images/medical.jpg"
+            data-src="img/grow.jpg"
+            alt="Photo of student's medical check-up"
+            class="facilities__img facilities__img--left lazy-img"
+          />
+        </div>
+        <div class="image__box order-4">
+          <img
+            src="images/uniform.jpg"
+            data-src="img/card.jpg"
+            alt="photo of all stuents"
+            class="facilities__img facilities__img--right lazy-img"
+          />
+        </div>
+        <div class="facilities__feature order-3">
+          <div class="facilities__icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+              />
+            </svg>
+          </div>
+          <h5 class="facilities__header">Free Uniforms</h5>
+          <p>
+            Providing free uniforms to students fosters inclusivity, promotes a
+            sense of equality, and contributes to a positive school environment
+            where everyone feels valued and supported.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">About Us</h2>
+        <h3 class="section__header">
+          Explore our story and how we nurture growth.
+        </h3>
+      </div>
+      <div class="about_us grid--container">
+        <img
+          class="about_us--img"
+          src="/images/about_us.jpg"
+          alt="image of the school"
+        />
+        <div class="about_us--text">
+          <h2 class="about_us--heaging">Building bright futures here</h2>
+          <p class="about_us--paragraph">
+            We believe in the transformative power of education. Our journey is
+            rooted in the idea that every student has unique potential waiting
+            to be discovered. We are dedicated to creating an environment that
+            not only imparts knowledge but also inspires curiosity, creativity,
+            and a love for learning.
+          </p>
+          <button class="btn btn--contact" href="cta">
+            Contact us &downarrow;
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="animated__numbers number--obverve">
+      <div class="animated__numbers--box">
+        <h2 class="number--heading" data-number="78">0+</h2>
+        <p class="number--title">Students</p>
+      </div>
+      <div class="animated__numbers--box">
+        <h2 class="number--heading" data-number="12">0+</h2>
+        <p class="number--title">Events Organised</p>
+      </div>
+      <div class="animated__numbers--box">
+        <h2 class="number--heading" data-number="14">0+</h2>
+        <p class="number--title">Years of Experience</p>
+      </div>
+    </section>
+
+    <section class="section section--vision" id="section--3">
+      <div class="section__title">
+        <h2 class="section__description">Vision</h2>
+        <h3 class="section__header">
+          Shaping Futures, Building Tomorrow's Leaders.
+        </h3>
+      </div>
+
+      <div class="vision">
+        <div class="vision__tab-container">
+          <button
+            class="btn vision__tab vision__tab--1 vision__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Excellence
+          </button>
+          <button class="btn vision__tab vision__tab--2" data-tab="2">
+            <span>02</span>Determination
+          </button>
+          <button class="btn vision__tab vision__tab--3" data-tab="3">
+            <span>03</span>Equality
+          </button>
+        </div>
+        <div class="vision__content vision__content--1 vision__content--active">
+          <div class="vision__icon vision__icon--1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5"
+              />
+            </svg>
+          </div>
+          <h5 class="vision__header">
+            Striving for Excellence and Empowering Progress
+          </h5>
+          <p>
+            Our government envisions excellence in every service, empowering
+            individuals, fostering progress for all. Committed to inclusivity,
+            we strive for a society where excellence shapes a brighter future
+            for everyone.
+          </p>
+        </div>
+
+        <div class="vision__content vision__content--2">
+          <div class="vision__icon vision__icon--2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z"
+              />
+            </svg>
+          </div>
+          <h5 class="vision__header">
+            Fueling Success Through Unwavering Determination.
+          </h5>
+          <p>
+            Our Vision for Student Success. Fostering resilience and unwavering
+            resolve, we inspire a community where determination fuels academic
+            achievement, personal growth, and lifelong success for every
+            student.
+          </p>
+        </div>
+        <div class="vision__content vision__content--3">
+          <div class="vision__icon vision__icon--3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002"
+              />
+            </svg>
+          </div>
+          <h5 class="vision__header">
+            Unity in Diversity and Equality Prevails Strong.
+          </h5>
+          <p class="">
+            Equality is our guiding vision, promoting inclusivity, respect, and
+            equal opportunities. In our government school, every student
+            thrives, learning in a diverse and supportive community for a
+            brighter future.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider -->
+    <section class="section" id="section--4">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Testimonials</h2>
+        <h3 class="section__header">
+          This is what parents says about our school
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Our experience with Government kannada Lower Primary School has
+              been exceptional. The dedicated teachers, innovative programs, and
+              nurturing environment have transformed our child's learning
+              journey. Grateful for the positive impact!
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="images/testimonials1.jpg"
+                alt="Photo of a lady"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Bhanu Braba</h6>
+              <p class="testimonial__location">Belgaum</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">A Beacon of Excellence</h5>
+            <blockquote class="testimonial__text">
+              Our family cherishes Government kannada Lower Primary School as a
+              beacon of academic excellence. The supportive staff, dynamic
+              curriculum, and inclusive atmosphere empower our child's growth
+              and success. Truly exceptional!
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="images/testimonials2.jpg"
+                alt="Photo of a lady"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Vidya Patil</h6>
+              <p class="testimonial__location">Belgaum</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Inspiring Futures</h5>
+            <blockquote class="testimonial__text">
+              Government kannada Lower Primary School inspires futures.
+              Exceptional teachers, diverse opportunities, and a nurturing
+              environment create an ideal space for our child's learning and
+              personal development. Grateful for this enriching experience.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="images/testimonials3.jpg"
+                alt="Photo of a lady"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Jyoti Patil</h6>
+              <p class="testimonial__location">Belgaum</p>
+            </address>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- ///////////////////////////////// -->
+    <!-- Form -->
+    <!-- ///////////////////////////////// -->
+    <section class="section section-cta" id="cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="cta--heading">Any doubts, ask here</h2>
+            <p class="cta-text">
+              Questions about our school? Get answers here. Explore with
+              confidence!
+            </p>
+
+            <form class="cta-form" name="sign-up" netlify>
+              <div>
+                <label for="name">Full Name</label>
+                <input
+                  autocomplete="additional-name"
+                  id="name"
+                  type="text"
+                  placeholder="John Smith"
+                  required
+                />
+              </div>
+
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  autocomplete="additional-email"
+                  id="email"
+                  type="email"
+                  placeholder="me@example.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="message">Any queries</label>
+                <textarea
+                  rows="3"
+                  cols="35"
+                  id="message"
+                  placeholder="write your doubts here"
+                  required
+                ></textarea>
+              </div>
+              <button class="ctf-btn" id="btn">Submit</button>
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="A student writing on the board"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--donate">
+      <div class="section__title">
+        <h3 class="section__header">
+          Empower Tomorrow and Building Bright Futures by Donating Today
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Click Here to Donate</button>
+    </section>
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="section--1">Facilities</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="section--2">About Us</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="section--3">Vision</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="section--4">Testimonials</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="cta">Contact Us</a>
+        </li>
+        <li class="footer__item">
+          <a
+            class="footer__link address"
+            href="https://maps.app.goo.gl/ETQ95gXD888JPaKG7"
+            target="_blank"
+            >Address</a
+          >
+        </li>
+      </ul>
+      <img src="images/logo.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by Government kannada Lower Primary School. Developed
+        by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://www.linkedin.com/in/raviteja-adhoni"
+          >Raviteja Adhoni</a
+        >. Unauthorized use or reproduction of content is strictly prohibited.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Scan Here <span class="highlight">and Donate</span>
+      </h2>
+      <img class="qr" src="images/qr.png" alt="logo" />
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
